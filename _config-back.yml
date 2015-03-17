@@ -2,17 +2,17 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# 网站
-title: Shen.XL
-subtitle: 走在路上，改变自己看到的世界
+# Site
+title: Hexo
+subtitle:
 description:
-author: shen.xl
-language: zh-CN
+author: John Doe
+language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.shenxl.info
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -25,27 +25,27 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:     # 跳过指定文件的渲染，您可使用 glob 来配置路径。
+skip_render:
 
 # Writing
-new_post_name: :title.md # 新文章的文件名称
-default_layout: post # 预设布局
-titlecase: false # 把标题转换为 title case
-external_link: true # 在新标签中打开链接
-filename_case: 0 # 把文件名称转换为 (1) 小写或 (2) 大写
-render_drafts: false # 显示草稿
-post_asset_folder: false # 启动 Asset 文件夹
-relative_link: false # 把链接改为与根目录的相对位址
-future: true # 显示未来的文章
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
 highlight:
   enable: true
   line_number: true
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized # 默认分类
-category_map:  # 分类别名
-tag_map:  # 标签别名
+default_category: uncategorized
+category_map:
+tag_map:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -62,11 +62,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: jacman
+theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/shenxl/shenxl.github.com.git
-  branch: master
+  type:
